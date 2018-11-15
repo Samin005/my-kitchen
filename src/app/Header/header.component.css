@@ -1,0 +1,5 @@
+.menuItem > a:hover,
+.menuItem > a:focus {
+  background-color: lightgray;
+  border-radius: 10%;
+}
