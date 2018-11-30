@@ -6,9 +6,9 @@ import {Component, EventEmitter, Output} from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  @Output() showView = new EventEmitter<string>();
-  setView(view: string) {
-    this.showView.emit(view);
-    // console.log(view);
-  }
+  // @Output() showView = new EventEmitter<string>();
+  // setView(view: string) {
+  //   this.showView.emit(view);
+  //   // console.log(view);
+  // }
 }

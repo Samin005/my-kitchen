@@ -1,5 +1,8 @@
-.menuItem > a:hover,
-.menuItem > a:focus {
-  background-color: lightgray;
-  border-radius: 10%;
+.menuItem > a {
+  border-bottom: 1px solid transparent;
+  transition: 500ms;
+}
+.menuItem > a:hover {
+  color: #1d1d1d;
+  border-color: #1d1d1d;
 }

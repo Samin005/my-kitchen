@@ -2,12 +2,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <app-recipies *ngIf="showView == 'Recipes'"></app-recipies>
-      <app-shopping-list *ngIf="showView == 'Shopping List'"></app-shopping-list>
-      <div *ngIf="showView == ''" align="center">
-        <h3>Welcome to my kitchen!</h3>
-        <img src="assets/images/panda-hi.gif" class="img-responsive">
-      </div>
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
